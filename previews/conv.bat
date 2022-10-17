@@ -1,1 +1,0 @@
-for %%A IN (*.wmv) DO ffmpeg -i "%%A" -vf scale="640:-1" -vcodec wmv2 -acodec wmav2 "%%~nA.wmv2"
